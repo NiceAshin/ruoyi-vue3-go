@@ -1,4 +1,4 @@
-package db
+package main
 
 import (
 	"database/sql"
@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	db, err := sql.Open("mysql", "user:password@tcp(localhost:3306)/dbname")
+	db, err := sql.Open("mysql", "root:rootroot@tcp(192.168.16.81:3306)/gy_istsp")
 	if err != nil {
 		panic(err.Error())
 	}
