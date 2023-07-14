@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	_ "github.com/go-sql-driver/mysql"
+	_ "github.com/gogf/gf/contrib/drivers/mysql/v2"
 )
 
 func main() {
